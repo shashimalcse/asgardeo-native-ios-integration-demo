@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientId</key>
+	<string>PJk4zoJ_RjIlTV7T8iOxXoZpISwa</string>
+	<key>redirectURL</key>
+	<string>thilinas.mealmagic://mealmagic-provider</string>
+	<key>authorizeEndpoint</key>
+	<string>https://api.asgardeo.io/t/thilinas/oauth2/authorize</string>
+	<key>tokenEndpoint</key>
+	<string>https://api.asgardeo.io/t/thilinas/oauth2/token</string>
+	<key>logoutEndpoint</key>
+	<string>https://api.asgardeo.io/t/thilinas/oidc/logout</string>
+	<key>userInfoEndpoint</key>
+	<string>https://api.asgardeo.io/t/thilinas/oauth2/userinfo</string>
+</dict>
+</plist>

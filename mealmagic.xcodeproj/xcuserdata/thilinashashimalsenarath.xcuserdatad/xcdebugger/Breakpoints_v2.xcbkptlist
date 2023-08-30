@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C87EE32-442D-4E2F-AA93-EB08EEC0FB72"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "547D1B07-F599-4AA1-9F1C-1A603EA273C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mealmagic/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F76F4766-1B3F-477A-A385-45A5EB499593"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mealmagic/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "doCallLogout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7B8FA68-C01B-463B-A17D-1BECC298F2A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mealmagic/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "doCallLogout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23C145F3-CACD-4411-8ACC-235A4B1EA2F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mealmagic/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "doCallLogout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "559D7B8D-1FF3-496E-8BC8-04B69A696A35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mealmagic/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "doCallLogout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mealmagic/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadOAuthConf()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619 - c30db175dbfa779b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mealmagic.ViewController.loadOAuthConf() -&gt; ()"
+                  moduleName = "mealmagic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/mealmagic/mealmagic/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619 - c30db175dbfa779b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mealmagic.ViewController.loadOAuthConf() -&gt; ()"
+                  moduleName = "mealmagic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/mealmagic/mealmagic/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619 - c30db175dbfa779b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mealmagic.ViewController.loadOAuthConf() -&gt; ()"
+                  moduleName = "mealmagic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/mealmagic/mealmagic/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619 - c30db175dbfa779b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mealmagic.ViewController.loadOAuthConf() -&gt; ()"
+                  moduleName = "mealmagic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/mealmagic/mealmagic/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619 - c30db175dbfa779b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mealmagic.ViewController.loadOAuthConf() -&gt; ()"
+                  moduleName = "mealmagic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/mealmagic/mealmagic/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "C28F45A2-2F9E-4AD5-98F4-13D809927619 - c30db175dbfa779b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mealmagic.ViewController.loadOAuthConf() -&gt; ()"
+                  moduleName = "mealmagic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thilinashashimalsenarath/Documents/mealmagic/mealmagic/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
