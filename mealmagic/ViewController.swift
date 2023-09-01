@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     private var asgardeoTextLabel: UILabel!
     private var sampleAppTextLabel: UILabel!
     private var homeScreenTextLabel: UILabel!
+    private var homeScreenEmailTextLabel: UILabel!
     
     private var authState: OIDAuthState?
     
@@ -270,9 +271,13 @@ extension ViewController {
                 let jsonResponse = try JSONSerialization.jsonObject(with: data, options: [])
                 if let jsonResponse = jsonResponse as? [String: Any] {
                     DispatchQueue.main.async {
-                        if let username = jsonResponse["given_name"] as? String {
+                        if let given_name = jsonResponse["given_name"] as? String {
 
-                            self.homeScreenTextLabel.text = "Welcome " + username
+                            self.homeScreenTextLabel.text = "Welcome " + given_name + " !"
+                        }
+                        if let username = jsonResponse["username"] as? String {
+
+                            self.homeScreenEmailTextLabel.text = "You are logged in as " + username
                         }
                     }
                 }
@@ -332,6 +337,14 @@ extension ViewController {
         homeScreenTextLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(homeScreenTextLabel)
         
+        homeScreenEmailTextLabel = UILabel()
+        homeScreenEmailTextLabel.textColor = UIColor.lightGray
+        homeScreenEmailTextLabel.font = UIFont.systemFont(ofSize: 15)
+        homeScreenEmailTextLabel.textAlignment = .center
+        homeScreenEmailTextLabel.backgroundColor = UIColor.clear
+        homeScreenEmailTextLabel.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(homeScreenEmailTextLabel)
+        
         // Add SignIn button
         signInButton = UIButton(type: .system)
         signInButton.setTitle("Login", for: .normal)
@@ -377,6 +390,10 @@ extension ViewController {
         homeScreenTextLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 200).isActive = true
         homeScreenTextLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
         homeScreenTextLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
+        
+        homeScreenEmailTextLabel.topAnchor.constraint(equalTo: homeScreenTextLabel.bottomAnchor, constant: 20).isActive = true
+        homeScreenEmailTextLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
+        homeScreenEmailTextLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
     }
     
     func moveToLoginScreen() {
